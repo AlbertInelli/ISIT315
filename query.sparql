@@ -1,0 +1,18 @@
+prefix data: <http://www.semanticweb.org/trebs/ontologies/2020/9/ValuesMapOntology#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+
+SELECT ?s WHERE 
+{ 
+  ?s rdf:type owl:ObjectProperty.
+}
+
+SELECT ?s WHERE 
+{ 
+  ?s rdf:type owl:Class.
+}
+
+SELECT ?s WHERE 
+{ 
+  ?s rdf:type owl:DatatypeProperty.
+}
